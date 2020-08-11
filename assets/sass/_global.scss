@@ -1,0 +1,56 @@
+.contact p,
+.skills p {
+    margin-top: 20px;
+}
+
+.fa,
+.w3-text-teal {
+    color: $primary-color !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fa-user {
+    color: $color-2 !important;
+}
+
+.fa-suitcase,
+#work-experience .text,
+#work-experience i {
+    color: $primary-color !important;
+}
+
+.fa-asterisk {
+    color: $color-6 !important;
+}
+
+#education .text,
+.fa-certificate,
+#education i {
+    color: $color-4 !important;
+}
+
+.fa-folder,
+.fa-circle {
+    color: $color-7 !important;
+}
+
+.name {
+    color: black;
+    -webkit-text-fill-color: #fff;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: $primary-color;
+}
+
+footer {
+    background-color: $primary-color;
+    color: #fff;
+    height: 10vh;
+}
+
+footer p {
+    margin-top: 20px;
+}
