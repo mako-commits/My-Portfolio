@@ -45,6 +45,23 @@ a {
     -webkit-text-stroke-color: $primary-color;
 }
 
+#boxes .box {
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-row-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 20px;
+}
+
 footer {
     background-color: $primary-color;
     color: #fff;
