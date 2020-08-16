@@ -1,0 +1,82 @@
+                @media(max-width:960px) {
+                    .welcome--section {
+                        height: 70vh;
+                        &__top img {
+                            top: 30%;
+                            left: 5%;
+                            transform: translate(0);
+                        }
+                        &__message h1 {
+                            font-size: 3.7rem;
+                            line-height: 1;
+                        }
+                        &__message p {
+                            font-size: 1.5rem;
+                        }
+                    }
+                    .footer .footer-cols {
+                        grid-template-columns: repeat(2, 1fr);
+                    }
+                    .hide-sm {
+                        display: none;
+                    }
+                    .btn-xl {
+                        font-size: 1.5rem;
+                        padding: 1.4rem 2rem;
+                    }
+                    .text-xl {
+                        font-size: 1.5rem
+                    }
+                    .text-lg {
+                        font-size: 1.3rem
+                    }
+                    .text-md {
+                        font-size: 1rem
+                    }
+                }
+                
+                @media(max-width:768px) {
+                    .welcome--section {
+                        &:after {
+                            //shadow by the left and top,bottom and right
+                            box-shadow: inset 80px 80px 250px #000000, inset -80px -80px 250px #000000
+                        }
+                    }
+                    #tab-1-content .tab--content__1 {
+                        grid-template-columns: 1fr;
+                        text-align: center;
+                    }
+                    #tab-2-content .tab--content__top {
+                        display: block;
+                        text-align: center;
+                    }
+                    #tab-2-content .tab--content__bottom {
+                        grid-template-columns: 1fr;
+                    }
+                }
+                
+                @media(max-width:500px) {
+                    .welcome--section {
+                        &__message {
+                            margin-top: 100px;
+                        }
+                        &__message h1 {
+                            font-size: 2.5rem;
+                            border: ipx solid blue;
+                        }
+                        &__message p {
+                            font-size: 1rem;
+                        }
+                    }
+                    .text-lg {
+                        font-size: 1rem
+                    }
+                    .tab--content__1 .btn-lg,
+                    .tab--content__top .btn-lg,
+                    #tab-3-content .btn-lg {
+                        font-size: 0.8rem;
+                    }
+                    .res {
+                        overflow-x: scroll;
+                    }
+                }
