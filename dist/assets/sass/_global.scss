@@ -45,6 +45,10 @@ a {
     -webkit-text-stroke-color: $primary-color;
 }
 
+.tab-border {
+    border-bottom: $primary-color 4px solid;
+}
+
 #boxes .box {
     float: left;
     width: 30%;
