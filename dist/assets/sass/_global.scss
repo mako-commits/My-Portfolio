@@ -49,6 +49,13 @@ a {
     border-bottom: $primary-color 4px solid;
 }
 
+.container {
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+}
+
 #boxes .box {
     float: left;
     width: 30%;
